@@ -6,4 +6,4 @@ This repository contains the members of this organization. If you want to join t
 
 ## How to join the organization
 
-Add your GitHub username to the [yaml file](./members.yaml) and send a pull request
+Add your GitHub username to [members.yaml](./members.yaml) and send a pull request with your GitHub username.
