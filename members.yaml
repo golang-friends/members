@@ -1,16 +1,16 @@
 admins:
-- incidrthreat
-- karansinghgit
-- kkweon
-- sagarc03
-- schairez
+  - incidrthreat
+  - karansinghgit
+  - kkweon
+  - sagarc03
+  - 🙈schairez
 members:
-- amalshaji
-- BaileyJM02
-- DLzer
-- itzmanish
-- JordanKnott
-- quartermeat
-- saadismail
-- samiam2013
+  - amalshaji
+  - BaileyJM02
+  - DLzer
+  - itzmanish
+  - JordanKnott
+  - quartermeat
+  - saadismail
+  - samiam2013
 org: golang-friends
