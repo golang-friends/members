@@ -2,11 +2,12 @@ package application
 
 import (
 	"context"
-	config "github.com/golang-friends/members/internal/config"
-	"github.com/google/go-github/v32/github"
 	"log"
 	"net/http"
 	"sync"
+
+	config "github.com/golang-friends/members/internal/config"
+	"github.com/google/go-github/v32/github"
 )
 
 type Application struct {
