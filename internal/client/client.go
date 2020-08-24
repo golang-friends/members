@@ -2,14 +2,15 @@ package client
 
 import (
 	"context"
-	"golang.org/x/oauth2"
-	"log"
+	"errors"
 	"net/http"
+
+	"golang.org/x/oauth2"
 )
 
 func NewOAuthClient(accessToken string) *http.Client {
 	if accessToken == "" {
-		log.Fatal("GitHub access token was not provided")
+		panic(errors.New("GitHub access token was not provided"))
 	}
 	ctx := context.Background()
 	ts := oauth2.StaticTokenSource(
