@@ -1,4 +1,5 @@
-# Please sort the names.
+org: golang-friends
+
 admins:
   - incidrthreat
   - karansinghgit
@@ -6,7 +7,6 @@ admins:
   - sagarc03
   - schairez
 
-# Please sort the names.
 members:
   - BaseMax
   - DLzer
@@ -18,10 +18,9 @@ members:
   - dileep8014
   - itzmanish
   - jbampton
+  - noman2002
   - ps-19
   - quartermeat
   - redjoker011
   - saadismail
   - zxcv2008a
-  - noman2002
-org: golang-friends

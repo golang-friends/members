@@ -2,7 +2,6 @@ package config
 
 import (
 	"fmt"
-	"sort"
 	"testing"
 
 	"github.com/spf13/viper"
@@ -23,6 +22,7 @@ func init() {
 
 func TestFromViper(t *testing.T) {
 	cfg := FromViper()
-	assert.True(t, sort.StringsAreSorted(cfg.Admins), "please sort the names in admin")
-	assert.True(t, sort.StringsAreSorted(cfg.Members), "please sort the names in members")
+	assert.NotEmpty(t, cfg.Orgname)
+	assert.NotEmpty(t, cfg.Admins)
+	assert.NotEmpty(t, cfg.Members)
 }
